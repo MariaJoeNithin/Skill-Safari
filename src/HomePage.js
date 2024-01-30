@@ -40,6 +40,7 @@ const HomePage = () => {
 
   return (
     <div className="p-0 m-0" id="Page1">
+
       <div className="slider-container m-0">
         <button className="nav-button" onClick={prevSlide}>
           &lt; Prev

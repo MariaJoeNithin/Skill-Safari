@@ -9,6 +9,12 @@
   font-size: 25px;
   overflow-y: hidden;
 }
+.productTitle1 {
+  min-height: 50px;
+  max-height: 50px;
+  font-size: 25px;
+  overflow-y: hidden;
+}
 .ProductCard {
   max-width: 200px;
   transition: 0.5s;
