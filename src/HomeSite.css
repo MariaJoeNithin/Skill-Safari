@@ -1,0 +1,61 @@
+.para {
+  min-height: 100px !important;
+  max-height: 100px !important;
+  overflow-y: hidden;
+}
+.productTitle {
+  min-height: 50px;
+  max-height: 50px;
+  font-size: 25px;
+  overflow-y: hidden;
+}
+.ProductCard {
+  max-width: 200px;
+  transition: 0.5s;
+}
+.ProductCard:hover {
+  box-shadow: 0px 0px 15px blue !important;
+}
+/* .ProductCard .productTitle:hover {
+  height: fit-content !important;
+  overflow-y: scroll; 
+} */
+.ProductCard .para:hover {
+  height: fit-content !important;
+  overflow-y: scroll;
+}
+/* body {
+  background: linear-gradient(
+    to right top,
+    #a2beeb,
+    #8ecfee,
+    #8edde5,
+    #a4e7d5,
+    #c7eec7
+  );
+} */
+#pg1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#Productpage {
+  background: linear-gradient(to top right, black, red);
+}
+.pd-Img {
+  height: 150px;
+  width: auto;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 20px;
+  overflow: hidden;
+  background: linear-gradient(
+    to top right,
+    rgba(128, 128, 128, 0.75),
+    rgba(0, 0, 0, 0.75)
+  );
+}
+.pd-Img img {
+  margin: 10px;
+  border-radius: 20px;
+}
